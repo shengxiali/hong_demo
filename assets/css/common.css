@@ -1,0 +1,182 @@
+/* WeiBa 通用样式 */
+.weiba-page-loading{
+    position: fixed;
+    z-index: 99999;
+    display: none;
+    width: 64px;
+    height: 64px;
+    top: 50%;
+    left: 50%;
+    margin-top: -32px;
+    margin-left: -32px;
+}
+
+/**/
+.weiba-page-loading.masklayer{
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.weiba-page-loading .weiba-loader-bg{
+    position: absolute;
+    z-index: 1;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.weiba-page-loading .weiba-loader-icon{
+    z-index: 2;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 50%;
+    margin-top: -32px;
+    left: 50%;
+    margin-left: -32px;
+    text-align: center;
+    line-height: 64px;
+}
+
+.weiba-page-loading .weiba-loader-icon i{
+    font-size: 64px;
+    color: #C0C0C0;
+}
+
+.weiba-page-loading.hidden{
+    opacity: 0;
+}
+
+
+.weiba-tip{
+    position: fixed;
+    z-index: 100000;
+    width: 250px;
+    top: 30%;
+    left: 50%;
+    margin-left: -125px;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    padding: 12px 3px;
+    color: #ffffff;
+    text-wrap: normal;
+    word-break: break-all;
+}
+
+/*
+*/
+.weiba-dialog{
+    position: fixed;
+    z-index: 99999;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.weiba-dialog .weiba-dialog-body{
+    position: absolute;
+    width: 218px;
+    min-height: 120px;
+    top:45%;margin-top: -71px;
+    left: 50%;margin-left: -109px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    background-color: #C6C6C6;
+    border: 1px solid #5d5d5d;
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+
+.weiba-dialog .weiba-dialog-body .weiba-dialog-title{
+    position: relative;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.weiba-dialog .weiba-dialog-body .weiba-dialog-content{
+    position: relative;
+    min-height: 60px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    padding: 0 5px;
+    line-height: 20px;
+}
+
+.weiba-dialog .weiba-dialog-body .weiba-dialog-msg{
+    line-height: 26px;
+    overflow-wrap: break-word;
+    padding: 3px;
+}
+
+.weiba-dialog .weiba-dialog-body .weiba-dialog-line{
+    position: relative;
+    max-height: 1px;
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #ebebeb;
+    margin: 5px auto;
+}
+
+.weiba-dialog .weiba-dialog-body .weiba-dialog-button-ok,
+.weiba-dialog .weiba-dialog-body .weiba-dialog-button-cancel{
+    position: relative;
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    width: 90px;
+    margin: auto 3px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+.weiba-dialog .weiba-dialog-body .weiba-dialog-button-ok{
+    color: #ffffff;
+    border: 1px solid #000000;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#78C27C), to(#008E00));
+}
+
+
+.weiba-dialog .weiba-dialog-body .weiba-dialog-button-cancel{
+    color: #000000;
+    border: 1px solid #969696;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#F8F8F8), to(#DADADA));
+}
+
+.weiba-dialog .weiba-dialog-body .weiba-dialog-content input{
+    line-height: 28px;
+    width: 180px;
+    margin: 2px;
+    height: 32px;
+    font-size: 14px;
+}
+/*sync旋转*/
+.spin {
+    -webkit-animation: spin 2s infinite linear;
+    animation: spin 2s infinite linear;
+}
+@-webkit-keyframes spin {
+    0% {-webkit-transform: rotate(0deg);transform: rotate(0deg)}
+    100% {-webkit-transform: rotate(359deg);transform: rotate(359deg)}
+}
+
+@keyframes spin {
+    0% {-webkit-transform: rotate(0deg);transform: rotate(0deg)}
+    100% {-webkit-transform: rotate(359deg);transform: rotate(359deg)}
+}

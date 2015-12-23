@@ -1,0 +1,18 @@
+.my_photo{width: 100%;margin-top: 15px;}
+.my_photo .main{width: 960px;box-sizing: border-box;margin: 0 auto;background-color: #fff;}
+/****左边部分*****/
+.my_photo .main .p_left{width: 20%;float:left;background-color: #fff;padding: 40px 0 20px 0;text-align: center;}
+.my_photo .main .p_left .p_add_photo{width:60%;height:30px;line-height:30px;background-color:#ccc;margin:0 auto;padding:0 20px;box-sizing:border-box;cursor:pointer;font-size: 16px;text-align: center;}
+.my_photo .main .p_left .p_del_photo{width:60%;height:30px;line-height:30px;background-color:#ccc;margin:0 auto;margin-top:20px;padding:0 20px;box-sizing:border-box;cursor:pointer;font-size: 16px;text-align: center;}
+/*****右边部分****/
+.my_photo .main .p_right{width: 80%;border-left:1px solid #ccc;float: right;background-color: #fff;box-sizing: border-box;padding-bottom: 30px;}
+.my_photo .main .p_right .p_list{width: 100%;text-align: center;box-sizing: border-box;}
+.my_photo .main .p_right .p_list .no_photo{font-size: 36px;color:#ccc;margin: 100px 0;}
+.my_photo .main .p_right .p_list .p_box{width: 33.3%;float: left;padding:10px;box-sizing: border-box;}
+.my_photo .main .p_right .p_list .p_box .p_size{width: 180px;height: 180px;padding: 0;display: block;margin: 0 auto; cursor: pointer}
+
+.my_photo .main .p_right .load_more{width: 100%;height: 30px;font-size: 16px;color: #ccc;line-height: 30px;text-align: center;}
+
+/*****照片弹出层****/
+.alert_frame{display: none}
+.alert_frame .alert_bg{position: fixed;left:0;right: 0;top:0;bottom: 0;background-color: rgba(0,0,0,0.8);filter: alpha(opacity=80);z-index: 5;cursor: pointer;}

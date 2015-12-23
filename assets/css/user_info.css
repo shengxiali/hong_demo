@@ -1,0 +1,7 @@
+.info_center{width: 100%;margin-top: 15px;}
+.info_center .main{width: 960px;box-sizing: border-box;margin: 0 auto;background-color: #fff;}
+.info_center .main .info_left{width: 20%;float:left;background-color: #fff;padding: 40px 0 20px 0;text-align: center;}
+.info_center .main .info_left .change_info{width:60%;height:30px;line-height:30px;background-color:#ccc;margin:0 auto;padding:0 20px;box-sizing:border-box;cursor:pointer;font-size: 16px;text-align: center;}
+.info_center .main .info_right{width: 80%;border-left:1px solid #ccc;float: right;background-color: #fff;box-sizing: border-box;padding-bottom: 30px;}
+.info_center .main .info_right .info_list{width: 100%;text-align: center;box-sizing: border-box;}
+.info_center .main .info_right .info_list .no_info{margin: 100px auto;font-size: 36px;color: #ccc;}
